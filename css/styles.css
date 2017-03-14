@@ -1,0 +1,102 @@
+/* Styles - Universal */
+*{box-sizing: border-box;}
+
+body{margin: 0;}
+
+#app-container{
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.columns-container{
+  font-size: 0;
+}
+
+/* Styles - Navbar Top */
+.nav-top{
+  background-color: #2755A9;
+  margin: 0;
+  width: 100%;
+}
+
+.nav-top_logo{
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+}
+
+.nav-top_logo img{
+  width: 100%;
+}
+
+.nav-top_menu-button{
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 48px;
+  margin-left: 8px;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.nav-top_right-buttons{
+  border: 3px solid #FFFFFF;
+  display: inline-block;
+  margin-right: 8px;
+  position: absolute;
+  right: 8px;
+  top: 16px;
+  vertical-align: middle;
+}
+
+.right-buttons_sign-up, .right-buttons_log-in{
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 16px;
+  padding: 10px;
+}
+
+.right-buttons_log-in{
+  border-left: 3px solid #FFFFFF;
+}
+
+/* Styles - Page Header */
+.page-header {
+  text-align: center;
+}
+
+.page-header h1{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  margin: 28px auto 0px auto;
+}
+
+.page-header h2{
+  margin: 16px auto 0px auto;
+}
+
+/* Styles - Promo Blurb */
+.promo-blurb{
+  background-image: url("../images/TaskMaster Wireframe - All Lists Desktop 002.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+  width: 100%;
+}
+
+.promo-blurb_block{
+  background-color: rgba(105, 140, 203, .9);
+  margin-top: 32px;
+  min-height: 60vh;
+  padding: 24px;
+}
+
+.promo-blurb_block h3{
+  font-size: 28px;
+  text-align: center;
+}
+
+.promo-blurb_block p{
+  font-size: 20px;
+}
